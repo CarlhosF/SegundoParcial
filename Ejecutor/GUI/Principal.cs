@@ -225,7 +225,7 @@ namespace Inicial.GUI
         {
 
             ExportarBD f = new ExportarBD(llenarPerfil(), 2);
-            cont.Controls.Clear();
+
             
             f.Show();
         }
@@ -233,7 +233,7 @@ namespace Inicial.GUI
         private void btn_Importar_Click(object sender, EventArgs e)
         {
             ImportarBD f = new ImportarBD(llenarPerfil());
-            cont.Controls.Clear();
+            
             
             f.Show();
         }

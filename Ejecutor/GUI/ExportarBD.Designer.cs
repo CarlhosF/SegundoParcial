@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txbRuta = new System.Windows.Forms.TextBox();
             this.btnRespaldo = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
             this.txbCarpeta = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblNota = new System.Windows.Forms.Label();
@@ -71,26 +70,11 @@
             this.btnRespaldo.Location = new System.Drawing.Point(92, 186);
             this.btnRespaldo.Margin = new System.Windows.Forms.Padding(2);
             this.btnRespaldo.Name = "btnRespaldo";
-            this.btnRespaldo.Size = new System.Drawing.Size(94, 28);
+            this.btnRespaldo.Size = new System.Drawing.Size(104, 28);
             this.btnRespaldo.TabIndex = 3;
-            this.btnRespaldo.Text = "Respaldar";
+            this.btnRespaldo.Text = "Exportar BD";
             this.btnRespaldo.UseVisualStyleBackColor = false;
             this.btnRespaldo.Click += new System.EventHandler(this.btnRespaldo_Click);
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.Teal;
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCancelar.Location = new System.Drawing.Point(213, 186);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(86, 28);
-            this.btnCancelar.TabIndex = 4;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txbCarpeta
             // 
@@ -136,17 +120,16 @@
             this.Controls.Add(this.lblNota);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txbCarpeta);
-            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnRespaldo);
             this.Controls.Add(this.txbRuta);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ExportarBD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GenerarRespaldo";
+            this.Text = "Exportar";
             this.Load += new System.EventHandler(this.GenerarRespaldo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -158,7 +141,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txbRuta;
         private System.Windows.Forms.Button btnRespaldo;
-        private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.TextBox txbCarpeta;
         private System.Windows.Forms.Label lblNota;

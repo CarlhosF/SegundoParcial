@@ -30,7 +30,6 @@
         {
             this.txbArchivo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnCancelar = new System.Windows.Forms.Button();
             this.btnRecuperar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -38,11 +37,11 @@
             // 
             this.txbArchivo.Enabled = false;
             this.txbArchivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbArchivo.Location = new System.Drawing.Point(60, 82);
+            this.txbArchivo.Location = new System.Drawing.Point(11, 91);
             this.txbArchivo.Margin = new System.Windows.Forms.Padding(2);
             this.txbArchivo.Name = "txbArchivo";
             this.txbArchivo.ReadOnly = true;
-            this.txbArchivo.Size = new System.Drawing.Size(300, 23);
+            this.txbArchivo.Size = new System.Drawing.Size(267, 23);
             this.txbArchivo.TabIndex = 0;
             // 
             // label1
@@ -51,27 +50,12 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(57, 51);
+            this.label1.Location = new System.Drawing.Point(8, 60);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(263, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Seleccione su archivo a recuperar";
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.Teal;
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCancelar.Location = new System.Drawing.Point(185, 126);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(88, 36);
-            this.btnCancelar.TabIndex = 3;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnRecuperar
             // 
@@ -79,7 +63,7 @@
             this.btnRecuperar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRecuperar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRecuperar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnRecuperar.Location = new System.Drawing.Point(61, 126);
+            this.btnRecuperar.Location = new System.Drawing.Point(282, 84);
             this.btnRecuperar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRecuperar.Name = "btnRecuperar";
             this.btnRecuperar.Size = new System.Drawing.Size(94, 36);
@@ -93,17 +77,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(386, 265);
+            this.ClientSize = new System.Drawing.Size(386, 167);
             this.Controls.Add(this.btnRecuperar);
-            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txbArchivo);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ImportarBD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RecoveryBD";
+            this.Text = "Importar";
             this.Load += new System.EventHandler(this.RecoveryBD_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -114,7 +97,6 @@
 
         private System.Windows.Forms.TextBox txbArchivo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnRecuperar;
     }
 }
