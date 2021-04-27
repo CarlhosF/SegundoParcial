@@ -107,8 +107,9 @@
             this.dtgDatos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dtgDatos.RowTemplate.Height = 24;
             this.dtgDatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgDatos.Size = new System.Drawing.Size(875, 380);
+            this.dtgDatos.Size = new System.Drawing.Size(644, 349);
             this.dtgDatos.TabIndex = 2;
+            this.dtgDatos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgDatos_CellContentClick);
             // 
             // btnPerfil
             // 
@@ -190,7 +191,7 @@
             this.btn_Importar});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(887, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(648, 27);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -199,7 +200,7 @@
             this.panel1.Controls.Add(this.dtgDatos);
             this.panel1.Location = new System.Drawing.Point(0, 27);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(875, 380);
+            this.panel1.Size = new System.Drawing.Size(644, 349);
             this.panel1.TabIndex = 3;
             // 
             // ID
@@ -263,10 +264,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(887, 422);
+            this.ClientSize = new System.Drawing.Size(648, 377);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;

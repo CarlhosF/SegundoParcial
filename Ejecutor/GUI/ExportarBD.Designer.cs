@@ -56,7 +56,7 @@
             this.txbRuta.Enabled = false;
             this.txbRuta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbRuta.Location = new System.Drawing.Point(26, 142);
-            this.txbRuta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbRuta.Margin = new System.Windows.Forms.Padding(2);
             this.txbRuta.Name = "txbRuta";
             this.txbRuta.ReadOnly = true;
             this.txbRuta.Size = new System.Drawing.Size(273, 24);
@@ -69,7 +69,7 @@
             this.btnRespaldo.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRespaldo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnRespaldo.Location = new System.Drawing.Point(92, 186);
-            this.btnRespaldo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRespaldo.Margin = new System.Windows.Forms.Padding(2);
             this.btnRespaldo.Name = "btnRespaldo";
             this.btnRespaldo.Size = new System.Drawing.Size(94, 28);
             this.btnRespaldo.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCancelar.Location = new System.Drawing.Point(213, 186);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(86, 28);
             this.btnCancelar.TabIndex = 4;
@@ -97,7 +97,7 @@
             this.txbCarpeta.Enabled = false;
             this.txbCarpeta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCarpeta.Location = new System.Drawing.Point(26, 47);
-            this.txbCarpeta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbCarpeta.Margin = new System.Windows.Forms.Padding(2);
             this.txbCarpeta.Name = "txbCarpeta";
             this.txbCarpeta.ReadOnly = true;
             this.txbCarpeta.Size = new System.Drawing.Size(273, 24);
@@ -127,7 +127,7 @@
             this.lblNota.Size = new System.Drawing.Size(0, 13);
             this.lblNota.TabIndex = 7;
             // 
-            // GenerarRespaldo
+            // ExportarBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -143,8 +143,8 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "GenerarRespaldo";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "ExportarBD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GenerarRespaldo";
             this.Load += new System.EventHandler(this.GenerarRespaldo_Load);

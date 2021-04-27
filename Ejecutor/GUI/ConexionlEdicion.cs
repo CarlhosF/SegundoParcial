@@ -30,7 +30,7 @@ namespace Inicial.GUI
 
         public ConexionlEdicion()
         {
-            // TODO: Complete member initialization
+            
         }
 
         public void llenarPerfil()
@@ -50,11 +50,7 @@ namespace Inicial.GUI
 
             llenarPerfil();
 
-            String _Cadena = @"Server=" + p.SERVIDOR +
-                        ";Port=" + p._PUERTO +
-                        ";Database=" + p._DATABASE +
-                        ";Uid=" + p.USUARIO +
-                        ";Pwd=" + p.CONTRA + ";";
+            String _Cadena = @"Server=" + p.SERVIDOR +";Port=" + p._PUERTO +";Database=" + p._DATABASE +";Uid=" + p.USUARIO +";Pwd=" + p.CONTRA + ";";
 
             p.CADENA = _Cadena;
 
@@ -87,10 +83,9 @@ namespace Inicial.GUI
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Esta Seguro que desea Cancelar?", "Confirmacion", MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.Yes)
-            {
+            
                 Close();
-            }
+            
         }
     }
 }

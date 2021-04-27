@@ -40,7 +40,6 @@
             this.txbUsuario = new System.Windows.Forms.TextBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnCancelar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -63,7 +62,7 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.Black;
-            this.btnGuardar.Location = new System.Drawing.Point(29, 284);
+            this.btnGuardar.Location = new System.Drawing.Point(98, 270);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(95, 40);
@@ -173,21 +172,6 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Contraseña";
             // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.Teal;
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.ForeColor = System.Drawing.Color.Black;
-            this.btnCancelar.Location = new System.Drawing.Point(199, 284);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(95, 40);
-            this.btnCancelar.TabIndex = 8;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -209,7 +193,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(306, 362);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txbUsuario);
             this.Controls.Add(this.lblUsuario);
@@ -222,7 +205,7 @@
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ConexionlEdicion";
@@ -241,7 +224,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button btnCancelar;
         public System.Windows.Forms.TextBox txbID;
         public System.Windows.Forms.ComboBox cbbBD;
         public System.Windows.Forms.TextBox txbPerfil;

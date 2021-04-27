@@ -88,7 +88,7 @@ namespace Inicial.GUI
             try
             {
                 ConexionlEdicion f = new ConexionlEdicion(ConexionlEdicion.Accion.ACTUALIZAR);
-
+                
                 f.txbID.Text = dtgDatos.CurrentRow.Cells["ID"].Value.ToString();
                 f.txbPerfil.Text = dtgDatos.CurrentRow.Cells["Perfil"].Value.ToString();
                 
@@ -100,7 +100,7 @@ namespace Inicial.GUI
                 f.txbID.ReadOnly = true;
                 f.txbID.Enabled = false;
 
-                f.ShowDialog();
+                f.Show();
 
                 if (f.Procesar)
                 {
@@ -167,10 +167,9 @@ namespace Inicial.GUI
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Desea EDITAR el Perfil seleccionado?", "Pregunta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
+            
                 Editar();
-            }
+            
         }
 
         private CLS.Conexion llenarPerfil()
@@ -226,14 +225,17 @@ namespace Inicial.GUI
         {
 
             ExportarBD f = new ExportarBD(llenarPerfil(), 2);
-
-            f.ShowDialog();
+            cont.Controls.Clear();
+            
+            f.Show();
         }
 
         private void btn_Importar_Click(object sender, EventArgs e)
         {
             ImportarBD f = new ImportarBD(llenarPerfil());
-            f.ShowDialog();
+            cont.Controls.Clear();
+            
+            f.Show();
         }
 
         private void btn_Exprotar_Click_1(object sender, EventArgs e)
@@ -255,6 +257,11 @@ namespace Inicial.GUI
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtgDatos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

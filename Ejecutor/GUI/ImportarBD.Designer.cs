@@ -88,7 +88,7 @@
             this.btnRecuperar.UseVisualStyleBackColor = false;
             this.btnRecuperar.Click += new System.EventHandler(this.btnRecuperar_Click);
             // 
-            // RecoveryBD
+            // ImportarBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,7 +101,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "RecoveryBD";
+            this.Name = "ImportarBD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RecoveryBD";
             this.Load += new System.EventHandler(this.RecoveryBD_Load);
