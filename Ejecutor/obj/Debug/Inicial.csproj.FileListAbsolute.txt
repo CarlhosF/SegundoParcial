@@ -1,0 +1,42 @@
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.exe.config
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.exe
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.pdb
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\bin\Debug\MySql.Data.dll
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\bin\Debug\MySql.Data.xml
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.GenerarRespaldo.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.PerfilEdicion.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.Principal.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.RecoveryBD.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.Splash.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.Properties.Resources.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.csproj.GenerateResource.Cache
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.exe
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.pdb
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.csprojResolveAssemblyReference.cache
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.exe
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.exe.config
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.GenerarRespaldo.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.PerfilEdicion.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.Principal.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.RecoveryBD.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.Splash.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.Properties.Resources.resources
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.csproj.GenerateResource.Cache
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.exe
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.pdb
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.pdb
+C:\Users\Anju9\OneDrive\Documentos\USO\Ciclo 01-20\DS2\Parcial2\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.csprojResolveAssemblyReference.cache
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.exe.config
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.exe
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.pdb
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.exe
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\bin\Debug\Inicial.pdb
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\bin\Debug\MySql.Data.dll
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\bin\Debug\MySql.Data.xml
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.csprojResolveAssemblyReference.cache
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.GenerarRespaldo.resources
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.PerfilEdicion.resources
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.Principal.resources
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.GUI.RecoveryBD.resources
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.Properties.Resources.resources
+C:\Users\HP\Downloads\Intento de solucion de parcial 2-20210427T013733Z-001\Intento de solucion de parcial 2\Inicial\obj\Debug\Inicial.csproj.GenerateResource.Cache

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Perfiles>
+    <cID>1</cID>
+    <cPerfil>Prueba</cPerfil>
+    <cServidor>localhost</cServidor>
+    <cBaseDatos>northwind</cBaseDatos>
+    <cUsuario>root</cUsuario>
+    <cContra>admin</cContra>
+    <cPuerto>3306</cPuerto>
+  </Perfiles>
+</DocumentElement>

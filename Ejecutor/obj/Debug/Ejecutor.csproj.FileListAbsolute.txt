@@ -1,0 +1,16 @@
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\bin\Debug\Inicial.exe.config
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\bin\Debug\Inicial.exe
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\bin\Debug\Inicial.pdb
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\bin\Debug\MySql.Data.dll
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\bin\Debug\MySql.Data.xml
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Ejecutor.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.GenerarRespaldo.resources
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.PerfilEdicion.resources
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.Principal.resources
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.RecoveryBD.resources
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.Properties.Resources.resources
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Ejecutor.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Ejecutor.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Ejecutor.csproj.CopyComplete
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.exe
+C:\Users\HP\source\repos\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.pdb
