@@ -68,11 +68,11 @@ namespace Inicial.GUI
             
             nFila["cID"] = f.txbID.Text;
             nFila["cPerfil"] = f.txbPerfil.Text;
-            nFila["cServidor"] = f.txbServidor.Text;
+            
             nFila["cBaseDatos"] = f.cbbBD.Text;
             nFila["cUsuario"] = f.txbUsuario.Text;
             nFila["cContra"] = f.txbContra.Text;
-            nFila["cPuerto"] = f.txbPuerto.Text;
+            
 
 
             _Datos.Rows.Add(nFila);
@@ -91,11 +91,11 @@ namespace Inicial.GUI
 
                 f.txbID.Text = dtgDatos.CurrentRow.Cells["ID"].Value.ToString();
                 f.txbPerfil.Text = dtgDatos.CurrentRow.Cells["Perfil"].Value.ToString();
-                f.txbServidor.Text = dtgDatos.CurrentRow.Cells["Servidor"].Value.ToString();
+                
                 f.cbbBD.Text = dtgDatos.CurrentRow.Cells["BaseDatos"].Value.ToString();
                 f.txbUsuario.Text = dtgDatos.CurrentRow.Cells["Usuario"].Value.ToString();
                 f.txbContra.Text = dtgDatos.CurrentRow.Cells["Contra"].Value.ToString();
-                f.txbPuerto.Text = dtgDatos.CurrentRow.Cells["Puerto"].Value.ToString();
+                
 
                 f.txbID.ReadOnly = true;
                 f.txbID.Enabled = false;
@@ -107,11 +107,10 @@ namespace Inicial.GUI
 
                     dtgDatos.CurrentRow.Cells["ID"].Value = f.txbID.Text;
                     dtgDatos.CurrentRow.Cells["Perfil"].Value = f.txbPerfil.Text;
-                    dtgDatos.CurrentRow.Cells["Servidor"].Value = f.txbServidor.Text;
                     dtgDatos.CurrentRow.Cells["BaseDatos"].Value = f.cbbBD.Text;
                     dtgDatos.CurrentRow.Cells["Usuario"].Value = f.txbUsuario.Text;
                     dtgDatos.CurrentRow.Cells["Contra"].Value = f.txbContra.Text;
-                    dtgDatos.CurrentRow.Cells["Puerto"].Value = f.txbPuerto.Text;
+                    
 
                     GuardarLista();
                     MessageBox.Show("Perfil Editado Correctamente", "Confirmacion",
@@ -179,10 +178,10 @@ namespace Inicial.GUI
             p.ID = dtgDatos.CurrentRow.Cells["ID"].Value.ToString();
             p.PERFIL = dtgDatos.CurrentRow.Cells["Perfil"].Value.ToString();
             p.SERVIDOR = dtgDatos.CurrentRow.Cells["Servidor"].Value.ToString();
-            p.DATABASE = dtgDatos.CurrentRow.Cells["BaseDatos"].Value.ToString();
+            p._DATABASE = dtgDatos.CurrentRow.Cells["BaseDatos"].Value.ToString();
             p.USUARIO = dtgDatos.CurrentRow.Cells["Usuario"].Value.ToString();
             p.CONTRA = dtgDatos.CurrentRow.Cells["Contra"].Value.ToString();
-            p.PUERTO = dtgDatos.CurrentRow.Cells["Puerto"].Value.ToString();
+            p._PUERTO = dtgDatos.CurrentRow.Cells["Puerto"].Value.ToString();
 
             return p;
         } 
@@ -203,7 +202,7 @@ namespace Inicial.GUI
         private void todasLasBasesDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            GenerarRespaldo f = new GenerarRespaldo(llenarPerfil(),1);
+            ExportarBD f = new ExportarBD(llenarPerfil(),1);
             f.ShowDialog();
 
 
@@ -212,28 +211,28 @@ namespace Inicial.GUI
         private void lblBDSeleccion_Click(object sender, EventArgs e)
         {
 
-            GenerarRespaldo f = new GenerarRespaldo(llenarPerfil(), 2);
+            ExportarBD f = new ExportarBD(llenarPerfil(), 2);
 
             f.ShowDialog();
         }
 
         private void lblRecovery_Click(object sender, EventArgs e)
         {
-            RecoveryBD f = new RecoveryBD(llenarPerfil());
+            ImportarBD f = new ImportarBD(llenarPerfil());
             f.ShowDialog();
         }
 
         private void btn_Exprotar_Click(object sender, EventArgs e)
         {
 
-            GenerarRespaldo f = new GenerarRespaldo(llenarPerfil(), 2);
+            ExportarBD f = new ExportarBD(llenarPerfil(), 2);
 
             f.ShowDialog();
         }
 
         private void btn_Importar_Click(object sender, EventArgs e)
         {
-            RecoveryBD f = new RecoveryBD(llenarPerfil());
+            ImportarBD f = new ImportarBD(llenarPerfil());
             f.ShowDialog();
         }
 
@@ -244,14 +243,14 @@ namespace Inicial.GUI
 
         private void btn_Exp_Click(object sender, EventArgs e)
         {
-            GenerarRespaldo f = new GenerarRespaldo(llenarPerfil(), 2);
+            ExportarBD f = new ExportarBD(llenarPerfil(), 2);
 
             f.ShowDialog();
         }
 
         private void btn_Imp_Click(object sender, EventArgs e)
         {
-            RecoveryBD f = new RecoveryBD(llenarPerfil());
+            ImportarBD f = new ImportarBD(llenarPerfil());
             f.ShowDialog();
         }
 

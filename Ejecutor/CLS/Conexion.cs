@@ -29,13 +29,8 @@ namespace Inicial.CLS
             get { return _SERVIDOR; }
             set { _SERVIDOR = value; }
         }
-        String _PUERTO;
-
-        public String PUERTO
-        {
-            get { return _PUERTO; }
-            set { _PUERTO = value; }
-        }
+        public String _PUERTO="3306";
+        
         String _USUARIO;
 
         public String USUARIO
@@ -50,13 +45,9 @@ namespace Inicial.CLS
             get { return _CONTRA; }
             set { _CONTRA = value; }
         }
-        String _DATABASE;
+       public String _DATABASE="localhost";
 
-        public String DATABASE
-        {
-            get { return _DATABASE; }
-            set { _DATABASE = value; }
-        }
+        
 
         String _CADENA;
 

@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace Inicial.GUI
 {
-    public partial class RecoveryBD : Form
+    public partial class ImportarBD : Form
     {
 
         CLS.Conexion _perfil;
@@ -25,7 +25,7 @@ namespace Inicial.GUI
         }
 
 
-        public RecoveryBD(CLS.Conexion perfil)
+        public ImportarBD(CLS.Conexion perfil)
         {
             InitializeComponent();
             _perfil = perfil;
@@ -60,7 +60,7 @@ namespace Inicial.GUI
 
                     cmd.StandardInput.WriteLine(@"mysql " + "-p" + p.CONTRA +
                                                 " -u " + p.USUARIO +
-                                                " "+ p.DATABASE +" < " + txbArchivo.Text);
+                                                " "+ p._DATABASE +" < " + txbArchivo.Text);
                     progreso();
                   
                     cmd.StandardInput.Flush();

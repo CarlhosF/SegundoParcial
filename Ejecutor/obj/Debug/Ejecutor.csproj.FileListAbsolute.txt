@@ -18,9 +18,7 @@ C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\bin\Debug\Inicial.exe.config
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.exe
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.pdb
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Ejecutor.csprojResolveAssemblyReference.cache
-C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.GenerarRespaldo.resources
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.Principal.resources
-C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.RecoveryBD.resources
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.Properties.Resources.resources
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Ejecutor.csproj.GenerateResource.Cache
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\bin\Debug\Inicial.exe
@@ -28,3 +26,5 @@ C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\bin\Debug\Inicial.pdb
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\bin\Debug\MySql.Data.dll
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\bin\Debug\MySql.Data.xml
 C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.ConexionlEdicion.resources
+C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.ExportarBD.resources
+C:\Users\HP\Desktop\2_Parcial_MysqlDump\Ejecutor\obj\Debug\Inicial.GUI.ImportarBD.resources

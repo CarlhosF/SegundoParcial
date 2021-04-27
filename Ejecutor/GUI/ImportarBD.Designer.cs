@@ -1,6 +1,6 @@
 ﻿namespace Inicial.GUI
 {
-    partial class RecoveryBD
+    partial class ImportarBD
     {
         /// <summary>
         /// Required designer variable.

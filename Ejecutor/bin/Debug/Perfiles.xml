@@ -7,6 +7,5 @@
     <cBaseDatos>northwind</cBaseDatos>
     <cUsuario>root</cUsuario>
     <cContra>admin</cContra>
-    <cPuerto>3306</cPuerto>
   </Perfiles>
 </DocumentElement>

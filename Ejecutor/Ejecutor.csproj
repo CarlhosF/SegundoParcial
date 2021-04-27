@@ -51,11 +51,11 @@
     <Compile Include="CLS\Operador.cs" />
     <Compile Include="CLS\Conexion.cs" />
     <Compile Include="CLS\BDConector.cs" />
-    <Compile Include="GUI\GenerarRespaldo.cs">
+    <Compile Include="GUI\ExportarBD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\GenerarRespaldo.Designer.cs">
-      <DependentUpon>GenerarRespaldo.cs</DependentUpon>
+    <Compile Include="GUI\ExportarBD.Designer.cs">
+      <DependentUpon>ExportarBD.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\ConexionlEdicion.cs">
       <SubType>Form</SubType>
@@ -69,16 +69,16 @@
     <Compile Include="GUI\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\RecoveryBD.cs">
+    <Compile Include="GUI\ImportarBD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\RecoveryBD.Designer.cs">
-      <DependentUpon>RecoveryBD.cs</DependentUpon>
+    <Compile Include="GUI\ImportarBD.Designer.cs">
+      <DependentUpon>ImportarBD.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GUI\GenerarRespaldo.resx">
-      <DependentUpon>GenerarRespaldo.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\ExportarBD.resx">
+      <DependentUpon>ExportarBD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\ConexionlEdicion.resx">
       <DependentUpon>ConexionlEdicion.cs</DependentUpon>
@@ -86,8 +86,8 @@
     <EmbeddedResource Include="GUI\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\RecoveryBD.resx">
-      <DependentUpon>RecoveryBD.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\ImportarBD.resx">
+      <DependentUpon>ImportarBD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

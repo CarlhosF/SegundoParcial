@@ -35,7 +35,7 @@ namespace Inicial.CLS
                 else if (opcion == 2)
                 {
                     
-                    txbRuta.Text = String.Format(@"{1}" + Conexion.DATABASE + "{0}[" + FechaActual + "].sql{1}", new object[]{' ', '"'});
+                    txbRuta.Text = String.Format(@"{1}" + Conexion._DATABASE + "{0}[" + FechaActual + "].sql{1}", new object[]{' ', '"'});
                 }
            ARCHIVO = txbRuta.Text;
         }
@@ -65,7 +65,7 @@ namespace Inicial.CLS
                 cmd.StandardInput.Flush();
                 cmd.StandardInput.WriteLine(@"cd Dump\");
                 cmd.StandardInput.Flush();
-                cmd.StandardInput.WriteLine(@"mysqldump -h" + Conexion.SERVIDOR +" -P" + Conexion.PUERTO +" -u" + Conexion.USUARIO +" -p" + Conexion.CONTRA +" --databases " + Conexion.DATABASE + " > " + txbCarpeta.Text + ARCHIVO);
+                cmd.StandardInput.WriteLine(@"mysqldump -h" + Conexion.SERVIDOR +" -P" + Conexion._PUERTO +" -u" + Conexion.USUARIO +" -p" + Conexion.CONTRA +" --databases " + Conexion._DATABASE + " > " + txbCarpeta.Text + ARCHIVO);
                 cmd.StandardInput.Flush();
                 cmd.StandardInput.Close();
                 cmd.WaitForExit();

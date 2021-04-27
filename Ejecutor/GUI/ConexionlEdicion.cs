@@ -37,11 +37,11 @@ namespace Inicial.GUI
         {
             p.ID = txbID.Text;
             p.PERFIL = txbPerfil.Text;
-            p.SERVIDOR = txbServidor.Text;
-            p.DATABASE = cbbBD.Text;
+            
+            p._DATABASE = cbbBD.Text;
             p.USUARIO = txbUsuario.Text;
             p.CONTRA = txbContra.Text;
-            p.PUERTO = txbPuerto.Text;
+            
         }
 
 
@@ -51,8 +51,8 @@ namespace Inicial.GUI
             llenarPerfil();
 
             String _Cadena = @"Server=" + p.SERVIDOR +
-                        ";Port=" + p.PUERTO +
-                        ";Database=" + p.DATABASE +
+                        ";Port=" + p._PUERTO +
+                        ";Database=" + p._DATABASE +
                         ";Uid=" + p.USUARIO +
                         ";Pwd=" + p.CONTRA + ";";
 

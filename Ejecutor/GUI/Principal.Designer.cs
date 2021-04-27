@@ -33,13 +33,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.dtgDatos = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Perfil = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Servidor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BaseDatos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Contra = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Puerto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnPerfil = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.btnEditar = new System.Windows.Forms.ToolStripButton();
@@ -51,6 +44,13 @@
             this.btn_Importar = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Perfil = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Servidor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BaseDatos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Contra = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Puerto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dtgDatos)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -110,67 +110,13 @@
             this.dtgDatos.Size = new System.Drawing.Size(875, 380);
             this.dtgDatos.TabIndex = 2;
             // 
-            // ID
-            // 
-            this.ID.DataPropertyName = "cID";
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // Perfil
-            // 
-            this.Perfil.DataPropertyName = "cPerfil";
-            this.Perfil.HeaderText = "Perfil";
-            this.Perfil.Name = "Perfil";
-            this.Perfil.ReadOnly = true;
-            // 
-            // Servidor
-            // 
-            this.Servidor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Servidor.DataPropertyName = "cServidor";
-            this.Servidor.HeaderText = "Servidor";
-            this.Servidor.Name = "Servidor";
-            this.Servidor.ReadOnly = true;
-            // 
-            // BaseDatos
-            // 
-            this.BaseDatos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.BaseDatos.DataPropertyName = "cBaseDatos";
-            this.BaseDatos.HeaderText = "Base de Datos";
-            this.BaseDatos.Name = "BaseDatos";
-            this.BaseDatos.ReadOnly = true;
-            // 
-            // Usuario
-            // 
-            this.Usuario.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Usuario.DataPropertyName = "cUsuario";
-            this.Usuario.HeaderText = "Usuario";
-            this.Usuario.Name = "Usuario";
-            this.Usuario.ReadOnly = true;
-            // 
-            // Contra
-            // 
-            this.Contra.DataPropertyName = "cContra";
-            this.Contra.HeaderText = "Contraseña";
-            this.Contra.Name = "Contra";
-            this.Contra.ReadOnly = true;
-            this.Contra.Visible = false;
-            // 
-            // Puerto
-            // 
-            this.Puerto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Puerto.DataPropertyName = "cPuerto";
-            this.Puerto.HeaderText = "Puerto";
-            this.Puerto.Name = "Puerto";
-            this.Puerto.ReadOnly = true;
-            // 
             // btnPerfil
             // 
             this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
             this.btnPerfil.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(107, 24);
-            this.btnPerfil.Text = "Agregar Perfil";
+            this.btnPerfil.Size = new System.Drawing.Size(131, 24);
+            this.btnPerfil.Text = "Agregar Conexion";
             this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
             // 
             // toolStripSeparator2
@@ -183,8 +129,8 @@
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
             this.btnEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(95, 24);
-            this.btnEditar.Text = "Editar Perfil";
+            this.btnEditar.Size = new System.Drawing.Size(119, 24);
+            this.btnEditar.Text = "Editar Conexion";
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // toolStripSeparator4
@@ -197,8 +143,8 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(108, 24);
-            this.toolStripButton1.Text = "Eliminar Perfil";
+            this.toolStripButton1.Size = new System.Drawing.Size(132, 24);
+            this.toolStripButton1.Text = "Eliminar Conexion";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripSeparator1
@@ -256,6 +202,62 @@
             this.panel1.Size = new System.Drawing.Size(875, 380);
             this.panel1.TabIndex = 3;
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "cID";
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            // 
+            // Perfil
+            // 
+            this.Perfil.DataPropertyName = "cPerfil";
+            this.Perfil.HeaderText = "Conexion";
+            this.Perfil.Name = "Perfil";
+            this.Perfil.ReadOnly = true;
+            // 
+            // Servidor
+            // 
+            this.Servidor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Servidor.DataPropertyName = "cServidor";
+            this.Servidor.HeaderText = "Servidor";
+            this.Servidor.Name = "Servidor";
+            this.Servidor.ReadOnly = true;
+            this.Servidor.Visible = false;
+            // 
+            // BaseDatos
+            // 
+            this.BaseDatos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.BaseDatos.DataPropertyName = "cBaseDatos";
+            this.BaseDatos.HeaderText = "Base de Datos";
+            this.BaseDatos.Name = "BaseDatos";
+            this.BaseDatos.ReadOnly = true;
+            // 
+            // Usuario
+            // 
+            this.Usuario.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Usuario.DataPropertyName = "cUsuario";
+            this.Usuario.HeaderText = "Usuario";
+            this.Usuario.Name = "Usuario";
+            this.Usuario.ReadOnly = true;
+            // 
+            // Contra
+            // 
+            this.Contra.DataPropertyName = "cContra";
+            this.Contra.HeaderText = "Contraseña";
+            this.Contra.Name = "Contra";
+            this.Contra.ReadOnly = true;
+            this.Contra.Visible = false;
+            // 
+            // Puerto
+            // 
+            this.Puerto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Puerto.DataPropertyName = "cPuerto";
+            this.Puerto.HeaderText = "Puerto";
+            this.Puerto.Name = "Puerto";
+            this.Puerto.ReadOnly = true;
+            this.Puerto.Visible = false;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -284,13 +286,6 @@
 
         #endregion
         public System.Windows.Forms.DataGridView dtgDatos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Perfil;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Servidor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BaseDatos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Usuario;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Contra;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Puerto;
         private System.Windows.Forms.ToolStripButton btnPerfil;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton btnEditar;
@@ -302,6 +297,13 @@
         private System.Windows.Forms.ToolStripButton btn_Importar;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Perfil;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Servidor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BaseDatos;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Usuario;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Contra;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Puerto;
     }
 }
 
