@@ -60,7 +60,7 @@ namespace Inicial.GUI
             }
         }
 
-        private void Agregar(PerfilEdicion f)
+        private void Agregar(ConexionlEdicion f)
         {
          
             DataRow nFila = _Datos.NewRow();
@@ -87,7 +87,7 @@ namespace Inicial.GUI
         {
             try
             {
-                PerfilEdicion f = new PerfilEdicion(PerfilEdicion.Accion.ACTUALIZAR);
+                ConexionlEdicion f = new ConexionlEdicion(ConexionlEdicion.Accion.ACTUALIZAR);
 
                 f.txbID.Text = dtgDatos.CurrentRow.Cells["ID"].Value.ToString();
                 f.txbPerfil.Text = dtgDatos.CurrentRow.Cells["Perfil"].Value.ToString();
@@ -142,7 +142,7 @@ namespace Inicial.GUI
             try
             {
 
-                PerfilEdicion f = new PerfilEdicion(PerfilEdicion.Accion.INSERTAR);
+                ConexionlEdicion f = new ConexionlEdicion(ConexionlEdicion.Accion.INSERTAR);
                f.ShowDialog();
 
                 if (f.Procesar)

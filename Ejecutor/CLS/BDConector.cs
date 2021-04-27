@@ -11,7 +11,7 @@ namespace Inicial.CLS
     public class BDConector
     {
 
-         static GUI.PerfilEdicion f = new GUI.PerfilEdicion();
+         static GUI.ConexionlEdicion f = new GUI.ConexionlEdicion();
 
 
         protected MySqlConnection _CONEXION;

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Inicial.GUI
 {
-    public partial class PerfilEdicion : Form
+    public partial class ConexionlEdicion : Form
     {
         Accion _AccionElegida = Accion.INSERTAR;
         Boolean _procesar = false;
@@ -22,13 +22,13 @@ namespace Inicial.GUI
         }
 
         public enum Accion { INSERTAR, ACTUALIZAR };
-        public PerfilEdicion(Accion pAccion)
+        public ConexionlEdicion(Accion pAccion)
         {
             InitializeComponent();
             _AccionElegida = pAccion;
         }
 
-        public PerfilEdicion()
+        public ConexionlEdicion()
         {
             // TODO: Complete member initialization
         }

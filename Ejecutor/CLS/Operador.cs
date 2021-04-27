@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Inicial.CLS
 {
-    class Comandos
+    class OPerador
     {
         String _ARCHIVO;
 

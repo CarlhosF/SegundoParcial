@@ -1,6 +1,6 @@
 ﻿namespace Inicial.GUI
 {
-    partial class GenerarRespaldo
+    partial class ExportarBD
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GenerarRespaldo));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExportarBD));
             this.label1 = new System.Windows.Forms.Label();
             this.txbRuta = new System.Windows.Forms.TextBox();
             this.btnRespaldo = new System.Windows.Forms.Button();

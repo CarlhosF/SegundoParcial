@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Inicial.GUI
 {
-    public partial class GenerarRespaldo : Form
+    public partial class ExportarBD : Form
     {
         char[] chartotrim = { ' ' };
 
-        CLS.Comandos cmd = new CLS.Comandos();
+        CLS.OPerador cmd = new CLS.OPerador();
         string fecha = String.Format(DateTime.Now.ToString("yyyy-MM-dd{0}HH{0}mm"),' ');
         CLS.Conexion _perfil;
 
@@ -33,7 +33,7 @@ namespace Inicial.GUI
         }
 
 
-        public GenerarRespaldo(CLS.Conexion Perfil,int opcion)
+        public ExportarBD(CLS.Conexion Perfil,int opcion)
         {
             InitializeComponent();
             _perfil = Perfil;

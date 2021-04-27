@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CLS\Comandos.cs" />
+    <Compile Include="CLS\Operador.cs" />
     <Compile Include="CLS\Conexion.cs" />
     <Compile Include="CLS\BDConector.cs" />
     <Compile Include="GUI\GenerarRespaldo.cs">
@@ -57,11 +57,11 @@
     <Compile Include="GUI\GenerarRespaldo.Designer.cs">
       <DependentUpon>GenerarRespaldo.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\PerfilEdicion.cs">
+    <Compile Include="GUI\ConexionlEdicion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\PerfilEdicion.Designer.cs">
-      <DependentUpon>PerfilEdicion.cs</DependentUpon>
+    <Compile Include="GUI\ConexionlEdicion.Designer.cs">
+      <DependentUpon>ConexionlEdicion.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Principal.cs">
       <SubType>Form</SubType>
@@ -80,8 +80,8 @@
     <EmbeddedResource Include="GUI\GenerarRespaldo.resx">
       <DependentUpon>GenerarRespaldo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\PerfilEdicion.resx">
-      <DependentUpon>PerfilEdicion.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\ConexionlEdicion.resx">
+      <DependentUpon>ConexionlEdicion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
