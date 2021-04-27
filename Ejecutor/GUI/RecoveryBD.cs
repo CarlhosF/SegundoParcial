@@ -16,26 +16,26 @@ namespace Inicial.GUI
     public partial class RecoveryBD : Form
     {
 
-        CLS.Perfil _perfil;
+        CLS.Conexion _perfil;
 
-        public CLS.Perfil Perfil
+        public CLS.Conexion Perfil
         {
             get { return _perfil; }
             set { _perfil = value; }
         }
 
 
-        public RecoveryBD(CLS.Perfil perfil)
+        public RecoveryBD(CLS.Conexion perfil)
         {
             InitializeComponent();
             _perfil = perfil;
 
         }
 
-        private void recuperarBD(CLS.Perfil p)
+        private void recuperarBD(CLS.Conexion p)
         {
             string ruta = "";
-            CLS.DBConexion Conexion = new CLS.DBConexion();
+            CLS.BDConector Conexion = new CLS.BDConector();
             Process cmd = new Process();
 
             try

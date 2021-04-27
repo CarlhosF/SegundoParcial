@@ -22,71 +22,27 @@ namespace Inicial.CLS
         }
         
 
-        public void rutas_de_archivo(Perfil pPerfil, TextBox txbCarpeta, TextBox txbRuta, String FechaActual, int opcion)
+        public void Enrutar(Conexion Conexion, TextBox txbCarpeta, TextBox txbRuta, String FechaActual, int opcion)
         {
             char[] chartotrim = { ' ' };
-            string path = @"C:\Respaldos\";
+            string path = @"C:\BDRespaldos\";
                txbCarpeta.Text = path ;
                 if (opcion == 1)
                 {
                     
-                    txbRuta.Text = String.Format(@"{1}" + pPerfil.SERVIDOR + "{0}[" + FechaActual + "].sql{1}", new object[]{' ','"'});
+                    txbRuta.Text = String.Format(@"{1}" + Conexion.SERVIDOR + "{0}[" + FechaActual + "].sql{1}", new object[]{' ','"'});
                 }
                 else if (opcion == 2)
                 {
                     
-                    txbRuta.Text = String.Format(@"{1}" + pPerfil.DATABASE + "{0}[" + FechaActual + "].sql{1}", new object[]{' ', '"'});
+                    txbRuta.Text = String.Format(@"{1}" + Conexion.DATABASE + "{0}[" + FechaActual + "].sql{1}", new object[]{' ', '"'});
                 }
            ARCHIVO = txbRuta.Text;
         }
 
-        public void Respaldar_Todas_BD(TextBox txbCarpeta,TextBox txbRuta, Perfil pPerfil)
-        {
-            try
-            {
-                Process cmd = new Process();
-                string path = Directory.GetCurrentDirectory();
-                cmd.StartInfo.FileName = "cmd.exe";
-                cmd.StartInfo.RedirectStandardInput = true;
-                cmd.StartInfo.RedirectStandardOutput = true;
-                cmd.StartInfo.CreateNoWindow = true;
-                cmd.StartInfo.UseShellExecute = false;
-                cmd.Start();
+       
 
-                cmd.StandardInput.WriteLine(@"cd C:\");
-                cmd.StandardInput.Flush();
-                cmd.StandardInput.WriteLine(@"MKDIR Respaldos");
-                cmd.StandardInput.Flush();
-
-                cmd.StandardInput.WriteLine(@"cd " + path);
-                cmd.StandardInput.Flush();
-
-                cmd.StandardInput.WriteLine(@"cd..");
-                cmd.StandardInput.Flush();
-
-                cmd.StandardInput.WriteLine(@"cd Dump\" );
-                cmd.StandardInput.Flush();
-
-                cmd.StandardInput.WriteLine(@"mysqldump -h"+ pPerfil.SERVIDOR +
-                                            " -P"+ pPerfil.PUERTO +
-                                            " -u"+ pPerfil.USUARIO +
-                                            " -p"+ pPerfil.CONTRA +
-                                            " --all-databases > " + txbCarpeta.Text + ARCHIVO);
-                cmd.StandardInput.Flush();
-                cmd.StandardInput.Close();
-                cmd.WaitForExit();
-
-                MessageBox.Show("Respaldo realizado con exito.", "Notificacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                txbCarpeta.Clear();
-                txbRuta.Clear();
-            }
-            catch
-            {
-                MessageBox.Show("Ha ocurrido un error en el resplado, intente mas tarde.", "Notificacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        public void Respaldar_BD(TextBox txbCarpeta, TextBox txbRuta, Perfil pPerfil)
+        public void Respaldar(TextBox txbCarpeta, TextBox txbRuta, Conexion Conexion)
         {
             try
             {
@@ -99,27 +55,17 @@ namespace Inicial.CLS
                 cmd.StartInfo.CreateNoWindow = true;
                 cmd.StartInfo.UseShellExecute = false;
                 cmd.Start();
-
-                
                 cmd.StandardInput.WriteLine(@"cd C:\");
                 cmd.StandardInput.Flush();
                 cmd.StandardInput.WriteLine(@"MKDIR Respaldos");
                 cmd.StandardInput.Flush();
-
                 cmd.StandardInput.WriteLine(@"cd " + path);
                 cmd.StandardInput.Flush();
-
                 cmd.StandardInput.WriteLine(@"cd..");
                 cmd.StandardInput.Flush();
-
                 cmd.StandardInput.WriteLine(@"cd Dump\");
                 cmd.StandardInput.Flush();
-
-                cmd.StandardInput.WriteLine(@"mysqldump -h" + pPerfil.SERVIDOR +
-                                            " -P" + pPerfil.PUERTO +
-                                            " -u" + pPerfil.USUARIO +
-                                            " -p" + pPerfil.CONTRA +
-                                            " --databases " + pPerfil.DATABASE + " > " + txbCarpeta.Text + ARCHIVO);
+                cmd.StandardInput.WriteLine(@"mysqldump -h" + Conexion.SERVIDOR +" -P" + Conexion.PUERTO +" -u" + Conexion.USUARIO +" -p" + Conexion.CONTRA +" --databases " + Conexion.DATABASE + " > " + txbCarpeta.Text + ARCHIVO);
                 cmd.StandardInput.Flush();
                 cmd.StandardInput.Close();
                 cmd.WaitForExit();

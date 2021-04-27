@@ -14,7 +14,7 @@ namespace Inicial.GUI
     public partial class Principal : Form
     {
         DataTable _Datos = new DataTable();
-        CLS.Perfil p = new CLS.Perfil();
+        CLS.Conexion p = new CLS.Conexion();
 
         private void GuardarLista()
         {
@@ -174,7 +174,7 @@ namespace Inicial.GUI
             }
         }
 
-        private CLS.Perfil llenarPerfil()
+        private CLS.Conexion llenarPerfil()
         {
             p.ID = dtgDatos.CurrentRow.Cells["ID"].Value.ToString();
             p.PERFIL = dtgDatos.CurrentRow.Cells["Perfil"].Value.ToString();

@@ -48,10 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CLS\AppManager.cs" />
     <Compile Include="CLS\Comandos.cs" />
-    <Compile Include="CLS\DBConexion.cs" />
-    <Compile Include="CLS\Perfil.cs" />
+    <Compile Include="CLS\Conexion.cs" />
+    <Compile Include="CLS\BDConector.cs" />
     <Compile Include="GUI\GenerarRespaldo.cs">
       <SubType>Form</SubType>
     </Compile>

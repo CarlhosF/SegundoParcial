@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inicial.CLS
 {
-    public class Perfil
+    public class Conexion
     {
         String _ID;
 
@@ -65,7 +65,5 @@ namespace Inicial.CLS
             get { return _CADENA; }
             set { _CADENA = value; }
         }
-
-        public Perfil() { }
     }
 }

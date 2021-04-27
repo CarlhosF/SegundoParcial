@@ -16,9 +16,9 @@ namespace Inicial.GUI
 
         CLS.Comandos cmd = new CLS.Comandos();
         string fecha = String.Format(DateTime.Now.ToString("yyyy-MM-dd{0}HH{0}mm"),' ');
-        CLS.Perfil _perfil;
+        CLS.Conexion _perfil;
 
-        public CLS.Perfil Perfil
+        public CLS.Conexion Perfil
         {
             get { return _perfil; }
             set { _perfil = value; }
@@ -33,12 +33,12 @@ namespace Inicial.GUI
         }
 
 
-        public GenerarRespaldo(CLS.Perfil Perfil,int opcion)
+        public GenerarRespaldo(CLS.Conexion Perfil,int opcion)
         {
             InitializeComponent();
             _perfil = Perfil;
             _OPCION = opcion;
-            cmd.rutas_de_archivo(_perfil, txbCarpeta, txbRuta, fecha, _OPCION);
+            cmd.Enrutar(_perfil, txbCarpeta, txbRuta, fecha, _OPCION);
         }
 
         private void btnExaminar_Click(object sender, EventArgs e)
@@ -58,12 +58,12 @@ namespace Inicial.GUI
         {
             if (_OPCION == 1)
             {
-                cmd.Respaldar_Todas_BD(txbCarpeta, txbRuta, _perfil);
+                
                 Close();
             }
             else if (_OPCION == 2)
             {
-                cmd.Respaldar_BD(txbCarpeta, txbRuta, _perfil);
+                cmd.Respaldar(txbCarpeta, txbRuta, _perfil);
                 Close();
             }
         }

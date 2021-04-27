@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Inicial.CLS
 {
-    public class DBConexion
+    public class BDConector
     {
 
          static GUI.PerfilEdicion f = new GUI.PerfilEdicion();

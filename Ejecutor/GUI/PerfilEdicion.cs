@@ -14,7 +14,7 @@ namespace Inicial.GUI
     {
         Accion _AccionElegida = Accion.INSERTAR;
         Boolean _procesar = false;
-        CLS.Perfil p = new CLS.Perfil();
+        CLS.Conexion p = new CLS.Conexion();
 
         public Boolean Procesar
         {
@@ -61,7 +61,7 @@ namespace Inicial.GUI
 
             try
             {
-                CLS.DBConexion conexion = new CLS.DBConexion();
+                CLS.BDConector conexion = new CLS.BDConector();
 
                 if (conexion.Conectar(p.CADENA))
                 {
